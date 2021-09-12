@@ -1,0 +1,57 @@
+[
+  {
+    "id": 0,
+    "productName": "完熟アボガド",
+    "image": "🥑",
+    "from": "メキシコ",
+    "nutrients": "ビタミンB, ビタミンK",
+    "quantity": "4",
+    "price": "800",
+    "organic": true,
+    "description": "脂肪分が豊富で。糖分はほとんど含まず、10種類以上のビタミン、11種類のミネラルと食物繊維を豊富に含んでおる。"
+  },
+  {
+    "id": 1,
+    "productName": "チーズ",
+    "image": "🧀",
+    "from": "国産",
+    "nutrients": "ビタミンA, カルシウム",
+    "quantity": "250g",
+    "price": "500",
+    "organic": false,
+    "description": "チーズは腸と全体的な健康に寄与する可能性のある善玉菌であるプロバイオティクスの健康的な供給源である。"
+  },
+  {
+    "id": 2,
+    "productName": "ブロッコリー",
+    "image": "🥦",
+    "from": "国産",
+    "nutrients": "ビタミンC, ビタミンK",
+    "quantity": "3",
+    "price": "600",
+    "organic": true,
+    "description": "ビタミンB、ビタミンC、カロテンや鉄分を豊富に含む。"
+  },
+  {
+    "id": 3,
+    "productName": "人参",
+    "image": "🥕",
+    "from": "国産",
+    "nutrients": "ビタミンA, ビタミンK",
+    "quantity": "20",
+    "price": "1000",
+    "organic": true,
+    "description": "炭水化物が多く、蔗糖を多く含んでいるため、特有の甘味を持っている。"
+  },
+  {
+    "id": 4,
+    "productName": "トウモロコシ",
+    "image": "🌽",
+    "from": "国産",
+    "nutrients": "ビタミンC, マグネシウム",
+    "quantity": "2",
+    "price": "400",
+    "organic": false,
+    "description": "種子に含まれる糖分が多く強い甘味を感じる。"
+  }
+]

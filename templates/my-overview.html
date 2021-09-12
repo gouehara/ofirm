@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        html,
+body {
+  height: 100%;
+}
+
+.container {
+  /* The image used 
+  background-image: url("../assets/vegitable.jpg");
+
+   Set a specific height */
+  height: 100%;
+  opacity: 0.65;
+  /* Create the parallax scrolling effect 
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  */
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+}
+
+.border {
+  background-color: #111;
+  color: white;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.product-container {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px auto;
+  max-width: 700px;
+}
+
+.product-emoji {
+  float: left;
+  max-width: 36px;
+  width: 100%;
+  border-radius: 50%;
+  border: 1px solid #f1f1f1;
+  background-color: #dedede;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.product-link {
+  float: right;
+  margin-right: 10px;
+  color: #919151;
+}
+
+.product-detail {
+  margin-left: 2.5rem;
+}
+
+.product-link:hover {
+  color: #bdbd5b;
+}
+
+.not-organic {
+    display: none;
+}
+    </style>
+    <title>うちなー野菜市場</title>
+</head>
+<body>
+    <div class="container">
+    <div class="caption">
+        <span class="border">うちなー野菜市場</span>
+    </div>
+    </div>
+    {%PRODUCT_CARD%}
+</body>
+</html>

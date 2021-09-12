@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .main-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+  margin: 10% 10% 5px 5%;
+  gap: 4px;
+}
+
+.main-left {
+
+  flex-basis: 300px;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-right {
+
+  flex-basis: 50%;
+  flex-grow: 1;
+  padding: 8px;
+}
+
+.main-emoji {
+  font-size: 5rem;
+  opacity: 0.8;
+}
+
+.main-organic {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border: 1px solid;
+  display: inline-block;
+  padding: 0.8;
+}
+
+.main-right-title {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+footer {
+  max-width: 78%;
+}
+
+.footer-btn {
+  width: 4rem;
+  background-color: rgba(223, 235, 52, 0.534);
+  border-radius: 3px;
+  border: solid 1px;
+  cursor: pointer;
+}
+
+.footer-btn:hover {
+  color: rgba(0, 0, 0, 0.425);
+}
+
+.main-description {
+  display: flex;
+  justify-content: space-between;
+}
+
+.not-organic {
+  display: none;
+}
+
+.description-list {
+
+  padding: 3px 0;
+}
+
+.span-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+    </style>
+    <title>{%NAME%}{%EMOJI%}</title>
+</head>
+<body>
+    <main class="main-container">
+        <div class="main-left">
+            <span class="main-emoji main-emoji-1">{%EMOJI%}</span>
+            <span class="main-emoji main-emoji-1">{%EMOJI%}</span>
+        </div>
+        <div class="main-right">
+            <p class="main-organic {%NOTORGANIC%}">オーガニック</p>
+            <h1 class="main-right-title">{%NAME%}</h1>
+            <p class="main-description"><span class="description-list"><span class="span-container"><span>原産国&nbsp;</span><span>{%ORIGIN%}</span></span></span><span class="description-list"><span class="span-container"><span>栄養素&nbsp;</span><span> {%NUTRIENT%}</span></span></span><span class="description-list">個数 {%QUANTITY%}</span><span class="description-list">値段 {%PRICE%}</span></p>
+            <p>{%DESCRIPTION%}</p>
+        </div>
+    </main>
+    <footer align="right"><a href="/overview"><button class="footer-btn">戻る</button></a></footer>
+</body>
+</html>
